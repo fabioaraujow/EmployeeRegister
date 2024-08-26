@@ -174,6 +174,8 @@ public class Program {
 			System.out.println("Date of Hire (local): " + empData.get(i).getDate().format(fmt));
 		}
 		
+		System.out.printf("%nThank you for use this program!");
+		
 		sc.close();
 	}
 }
